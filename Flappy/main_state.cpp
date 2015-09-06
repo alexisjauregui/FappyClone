@@ -74,7 +74,7 @@ void main_state::Update(sf::RenderWindow* window)
         switch (this->selected) {
             case 0:
                 coreState.set_state(new game());
-                std::cout<<"here"<<std::endl;
+                //std::cout<<"here"<<std::endl;
                 break;
             case 1:
                 quit_game = true;
