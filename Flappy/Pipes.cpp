@@ -23,10 +23,10 @@ Pipes::Pipes() {
         }
     }
 
-    for(int i = 0; i<levels.size();i++){
+   /* for(int i = 0; i<levels.size();i++){
         std::cout<<levels[i]<<std::endl;
     }
-
+*/
 
         pipeb0.setTexture(texture);
         pipeb0.setPosition(501 , 350);
@@ -75,7 +75,7 @@ void Pipes::Update(sf::RenderWindow* window) {
         newLvl++;
     }
 
-    std::cout<<pipeb0.getPosition().y<<std::endl;
+   // std::cout<<pipeb0.getPosition().y<<std::endl;
 
 
 
