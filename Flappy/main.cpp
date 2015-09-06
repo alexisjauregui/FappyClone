@@ -11,7 +11,7 @@ game_state coreState;
 bool quit_game = false;
 
 int main() {
-    cout << "Hello, World!" << endl;
+   // cout << "Hello, World!" << endl;
 
     //Applications variables
     sf::RenderWindow window(sf::VideoMode(405, 609), "Flappy");
